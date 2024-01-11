@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 8px;
+}
+
+header img{
+  width: 200px;
+}
+
+header{
+  display: grid;
+  place-items: center;
+  padding: 20px 0;
+}
+
+main{
+  width: 350px;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 0 40px;
+  padding-bottom: 20px;
+}
+
+
+main form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+input{
+  padding: 8px;
+  border: 1px solid lightgray;
+  outline: none;
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+
+button{
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #0087e1;
+}
+.or{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.or span{
+  width: 100%;
+  background-color: lightgray;
+  height: 2px;
+}
+
+.facebook{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.facebook a{
+  color: #476993;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.facebook a:nth-child(2){
+  font-weight: normal;
+  color: gray;
+}
+
+section{
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+section a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0095f6;
+}
